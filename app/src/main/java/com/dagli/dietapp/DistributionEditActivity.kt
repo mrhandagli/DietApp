@@ -1,4 +1,3 @@
-// DistributionEditActivity.kt
 package com.dagli.dietapp
 
 import android.content.Intent
