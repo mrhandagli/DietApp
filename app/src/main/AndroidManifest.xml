@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:name=".DietApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DietApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".ExchangeEditActivity"
+            android:exported="false"
+            android:label="@string/title_activity_exchange_edit"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".DistributionEditActivity"
+            android:exported="false"
+            android:label="@string/title_activity_distribution_edit"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".RecipeGenerationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_recipe_generation"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".LauncherActivity"
+            android:exported="true"
+            android:theme="@style/Theme.DietApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MealPlanEditActivity"
+            android:exported="false"
+            android:label="@string/title_activity_meal_plan_edit"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".PastMealsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_past_meals"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".IngredientAddingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_ingredient_adding"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".DistributionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_nutrient_splitting"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".MealPlanningActivity"
+            android:exported="false"
+            android:label="@string/title_activity_meal_planning"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".ExchangeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_food_exchange"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".UsernameActivity"
+            android:exported="false"
+            android:label="@string/title_activity_username"
+            android:theme="@style/Theme.DietApp" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/Theme.DietApp" />
+    </application>
+
+</manifest>

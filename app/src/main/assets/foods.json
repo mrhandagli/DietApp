@@ -1,0 +1,5378 @@
+{
+  "foodExchangeTable": [
+    {
+      "id": 0,
+      "name": "Süt",
+      "group": "Süt/Yoğurt",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "su bardağı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": "Yoğurt",
+      "group": "Süt/Yoğurt",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "su bardağı",
+              "amount": 0.75
+            },
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 4
+            },
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ev yoğurdu",
+      "group": "Süt/Yoğurt",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "su bardağı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Ayran",
+      "group": "Süt/Yoğurt",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "su bardağı",
+              "amount": 1.5
+            },
+            {
+              "unit": "gram",
+              "amount": 300
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Kırmızı et, kuşbaşı",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "orta boyutta",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Kırmızı et, kıyma",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Kırmızı et, köfte",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "küçük yumurta boyutunda",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Kırmızı et, biftek",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "avuç içi kadar",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Tavuk göğüs fileto",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "küçük boy",
+              "amount": 0.25
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Tavuk baget, kemiksiz",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "küçük boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Hindi eti(derisiz), kemiksiz",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "parmak boyutunda",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "Levrek",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 0.2
+            },
+            {
+              "unit": "gram",
+              "amount": 55
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "Alabalık",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 0.16
+            },
+            {
+              "unit": "gram",
+              "amount": 45
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "Çipura",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 0.25
+            },
+            {
+              "unit": "gram",
+              "amount": 60
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Somon",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "parmak boyutunda",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "İstavrit",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 4
+            },
+            {
+              "unit": "gram",
+              "amount": 60
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "Mezgit",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "Lüfer",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "Sazan",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "parmak boyutunda",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 55
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": "Hamsi",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 5
+            },
+            {
+              "unit": "gram",
+              "amount": 45
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "Yumurta(tavuk)",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 55
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 50
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "Yumurta(bıldırcın)",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "adet",
+              "amount": 5
+            },
+            {
+              "unit": "gram",
+              "amount": 75
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 50
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": "Beyaz peynir(inek), tam yağlı",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "parmak boyutunda",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "Koyun peyniri, tam yağlı",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 24,
+      "name": "Keçi peyniri",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "parmak boyutunda",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 25,
+      "name": "Kaşar peyniri(taze/eski)",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 26,
+      "name": "Lor peyniri",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 50
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 27,
+      "name": "Çökelek",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 28,
+      "name": "Ezine peyniri",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 29,
+      "name": "Tulum peyniri",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 30,
+      "name": "Dil peyniri",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 31,
+      "name": "Süzme Peynir",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 32,
+      "name": "Krem Peynir",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 45
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 33,
+      "name": "Hellim Peyniri",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 34,
+      "name": "Örgü Peyniri",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 35,
+      "name": "Çeçil Peyniri",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 36,
+      "name": "Cheddar Peyniri",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 37,
+      "name": "Gravyer Peyniri",
+      "group": "Et/Peynir/Yumurta",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "yarım parmak boyutunda",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 38,
+      "name": "Beyaz, buğday ekmeği",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "ince dilim",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 39,
+      "name": "Mısır ekmeği",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "ince dilim",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 40,
+      "name": "Çavdar ekmeği",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "ince dilim",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 41,
+      "name": "Yulaf ekmeği",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "ince dilim",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 42,
+      "name": "Tam buğday ekmeği",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "ince dilim",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 43,
+      "name": "Kepekli ekmek",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "ince dilim",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 44,
+      "name": "Bazlama",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "orta boy",
+              "amount": 0.2
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 45,
+      "name": "Lavaş",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "küçük boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 46,
+      "name": "Hamburger ekmeği(küçük)",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "adet",
+              "amount": 0.5
+            },
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 47,
+      "name": "Sandviç ekmeği(küçük)",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "neutral",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "neutral": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "adet",
+              "amount": 0.33
+            },
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 48,
+      "name": "Buğday unu",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "silme yemek kaşığı",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 49,
+      "name": "Mısır unu",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "silme yemek kaşığı",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 50,
+      "name": "Pirinç ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 51,
+      "name": "Pirinç pilavı",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "cooked",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 52,
+      "name": "Bulgur ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 53,
+      "name": "Bulgur pilavı ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "cooked",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 54,
+      "name": "Makarna ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 55,
+      "name": "Erişte",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 56,
+      "name": "Aşurelik buğday(yarma) ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 57,
+      "name": "Mercimek çorbası ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "cooked",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "küçük kase",
+              "amount": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 58,
+      "name": "Mercimek  ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 59,
+      "name": "Şehriye çorbası ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "cooked",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "küçük kase",
+              "amount": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 60,
+      "name": "Şehriye",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 61,
+      "name": "Pirinç çorbası ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "cooked",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "küçük kase",
+              "amount": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 62,
+      "name": "Tarhana Çorbası  ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "cooked",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "küçük kase",
+              "amount": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 63,
+      "name": "Tarhana ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 64,
+      "name": "un çorbası ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "cooked",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "küçük kase",
+              "amount": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 65,
+      "name": "Nohut ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 66,
+      "name": "Kuru fasulye ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 67,
+      "name": "Barbunya ",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 68,
+      "name": "Kuru bakla",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 30
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 69,
+      "name": "Kuru börülce",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 35
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 70,
+      "name": "Patates",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "küçük boy",
+              "amount": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 71,
+      "name": "Bezelye içi",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 125
+            },
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 4
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 72,
+      "name": "Kestane",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "orta boy",
+              "amount": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 73,
+      "name": "Koçan mısır",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 90
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı(tane)",
+              "amount": 4
+            },
+            {
+              "unit": "küçük boy(bütün)",
+              "amount": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 74,
+      "name": "Patlamış mısır(yağsız)",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "su bardağı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 75,
+      "name": "Sarı leblebi",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            },
+            {
+              "unit": "Çay bardağı",
+              "amount": 0.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 76,
+      "name": "Beyaz leblebi",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            },
+            {
+              "unit": "Çay bardağı",
+              "amount": 0.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 77,
+      "name": "Tuzlu biskuvi",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "cooked",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "adet",
+              "amount": 4
+            },
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 78,
+      "name": "Diyet biskuvi",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "cooked",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            },
+            {
+              "unit": "adet",
+              "amount": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 79,
+      "name": "İrmik",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 80,
+      "name": "Tahıl gevreği",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 81,
+      "name": "Mısır gevreği(sade)",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 82,
+      "name": "Yulaf ezmesi",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 83,
+      "name": "Böreklik yufka",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "adet",
+              "amount": 0.16
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 84,
+      "name": "Galeta",
+      "group": "Ekmek/Tahıl/Kurubaklagil",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [],
+          "net": [
+            {
+              "unit": "büyük boy",
+              "amount": 1.5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 85,
+      "name": "Ahududu",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 35
+            },
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 86,
+      "name": "Ananas",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "parmak kalınlığında 1 dilim",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 300
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 160
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 87,
+      "name": "Armut",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 140
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 125
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 88,
+      "name": "Ayva",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 0.5
+            },
+            {
+              "unit": "gram",
+              "amount": 140
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 110
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 89,
+      "name": "Babutsa(Kaktüs meyvesi)",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 250
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 160
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 90,
+      "name": "Böğürtlen",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 35
+            },
+            {
+              "unit": "gram",
+              "amount": 210
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 210
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 91,
+      "name": "Çilek",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 18
+            },
+            {
+              "unit": "gram",
+              "amount": 305
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 300
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 92,
+      "name": "Dut",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "su bardağı",
+              "amount": 0.75
+            },
+            {
+              "unit": "gram",
+              "amount": 115
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 115
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 93,
+      "name": "Elma",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 130
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 120
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 94,
+      "name": "Yeşil erik",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 7
+            },
+            {
+              "unit": "gram",
+              "amount": 140
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 95,
+      "name": "Mürdüm eriği",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 115
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 110
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 96,
+      "name": "Greyfurt",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 230
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 175
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 97,
+      "name": "İncir",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 120
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 110
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 98,
+      "name": "Karayemiş",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 23
+            },
+            {
+              "unit": "gram",
+              "amount": 110
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 99,
+      "name": "Karpuz",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boyun yarısı",
+              "amount": 0.125
+            },
+            {
+              "unit": "gram",
+              "amount": 330
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 220
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 100,
+      "name": "Kavun",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 0.125
+            },
+            {
+              "unit": "gram",
+              "amount": 315
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 170
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 101,
+      "name": "Kayısı",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 7
+            },
+            {
+              "unit": "gram",
+              "amount": 190
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 175
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 102,
+      "name": "Kiraz",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 11
+            },
+            {
+              "unit": "gram",
+              "amount": 120
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 110
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 103,
+      "name": "Kivi",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 125
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 110
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 104,
+      "name": "Kızılcık",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "su bardağı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 105,
+      "name": "Limon",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 250
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 106,
+      "name": "Mandalina",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 175
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 140
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 107,
+      "name": "Mango",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 0.33
+            },
+            {
+              "unit": "gram",
+              "amount": 145
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 120
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 108,
+      "name": "Muz",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 140
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 85
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 109,
+      "name": "Nar",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 250
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 160
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 110,
+      "name": "Portakal",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 180
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 140
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 111,
+      "name": "Şeftali",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 220
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 185
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 112,
+      "name": "Üzüm",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "karışık boy",
+              "amount": 25
+            },
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 113,
+      "name": "Vişne",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "karışık boy",
+              "amount": 35
+            },
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 125
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 114,
+      "name": "Trabzon hurması",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 120
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 115,
+      "name": "Yaban mersini",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "su bardağı",
+              "amount": 1.5
+            },
+            {
+              "unit": "gram",
+              "amount": 175
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 175
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 116,
+      "name": "Yeni dünya",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 7
+            },
+            {
+              "unit": "gram",
+              "amount": 160
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 120
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 117,
+      "name": "Kuru erik",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 118,
+      "name": "Kuru incir",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 119,
+      "name": "Kuru kayısı",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 4
+            },
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 120,
+      "name": "Kuru üzüm",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 121,
+      "name": "Kuru hurma",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 122,
+      "name": "Kuru dut",
+      "group": "Meyve",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "tepeleme yemek kaşığı",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 123,
+      "name": "Kırmızı turp",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 170
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 124,
+      "name": "Siyah turp",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 115
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 125,
+      "name": "Salatalık",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 250
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 126,
+      "name": "Acur",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 250
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 126,
+      "name": "Domates",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 230
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 127,
+      "name": "Kuru soğan",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 0.5
+            },
+            {
+              "unit": "gram",
+              "amount": 85
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 128,
+      "name": "Yeşil soğan",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 6
+            },
+            {
+              "unit": "gram",
+              "amount": 140
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 125
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 130,
+      "name": "Yeşil sivri biber",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 8
+            },
+            {
+              "unit": "gram",
+              "amount": 145
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 125
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 131,
+      "name": "Dolmalık biber",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 165
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 132,
+      "name": "Çarliston biber",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 5
+            },
+            {
+              "unit": "gram",
+              "amount": 190
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 175
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 133,
+      "name": "Asma yaprağı",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 8
+            },
+            {
+              "unit": "gram",
+              "amount": 35
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 35
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 134,
+      "name": "Kara lahana",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy yaprak(bütün)",
+              "amount": 2
+            },
+
+            {
+              "unit": "gram",
+              "amount": 60
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 60
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 135,
+      "name": "Beyaz lahana",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "su bardağı(doğranmış)",
+              "amount": 3
+            },
+
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 136,
+      "name": "Kırmızı lahana",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "su bardağı(doğranmış)",
+              "amount": 1
+            },
+
+            {
+              "unit": "gram",
+              "amount": 80
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 80
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 137,
+      "name": "Brüksel lahana",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 5
+            },
+
+            {
+              "unit": "gram",
+              "amount": 125
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 125
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 138,
+      "name": "Pırasa",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy ",
+              "amount": 1
+            },
+
+            {
+              "unit": "gram",
+              "amount": 120
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 139,
+      "name": "Taze kabak",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 1
+            },
+
+            {
+              "unit": "gram",
+              "amount": 265
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 250
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 140,
+      "name": "Balkabağı",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy(kare dilim)",
+              "amount": 1
+            },
+
+            {
+              "unit": "gram",
+              "amount": 75
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 75
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 141,
+      "name": "Kereviz",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 0.5
+            },
+
+            {
+              "unit": "gram",
+              "amount": 170
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 142,
+      "name": "Havuç",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 2
+            },
+
+            {
+              "unit": "gram",
+              "amount": 135
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 143,
+      "name": "Kırmızı pancar",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 0.75
+            },
+
+            {
+              "unit": "gram",
+              "amount": 90
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 75
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 144,
+      "name": "Şalgam",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 1
+            },
+
+            {
+              "unit": "gram",
+              "amount": 170
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 145,
+      "name": "Patlıcan",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 1
+            },
+
+            {
+              "unit": "gram",
+              "amount": 250
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 146,
+      "name": "Taze fasulye",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy ",
+              "amount": 6
+            },
+
+            {
+              "unit": "gram",
+              "amount": 85
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 85
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 142,
+      "name": "Bamya",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 30
+            },
+
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 142,
+      "name": "Karnabahar",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy(çiçek) ",
+              "amount": 3
+            },
+
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 149,
+      "name": "Pazı",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy yaprak ",
+              "amount": 13
+            },
+
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 200
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 150,
+      "name": "Ebegümeci",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "su bardağı(doğranmış)",
+              "amount": 5
+            },
+
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 151,
+      "name": "Kültür mantarı",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy ",
+              "amount": 8
+            },
+
+            {
+              "unit": "gram",
+              "amount": 225
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 225
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 152,
+      "name": "Yer elması",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy ",
+              "amount": 2
+            },
+
+            {
+              "unit": "gram",
+              "amount": 190
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 153,
+      "name": "Taze börülce",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 8
+            },
+
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 100
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 154,
+      "name": "Brokoli",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "karışık boy(çiçek)",
+              "amount": 2
+            },
+
+            {
+              "unit": "gram",
+              "amount": 125
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 125
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 155,
+      "name": "Taze bakla",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 16
+            },
+
+            {
+              "unit": "gram",
+              "amount": 160
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 150
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 156,
+      "name": "Enginar(çanak)",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy",
+              "amount": 2
+            },
+
+            {
+              "unit": "gram",
+              "amount": 225
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 225
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 157,
+      "name": "Semizotu",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük bağ",
+              "amount": 1
+            },
+
+            {
+              "unit": "gram",
+              "amount": 340
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 300
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 158,
+      "name": "Kuru biber",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy ",
+              "amount": 5
+            },
+
+            {
+              "unit": "gram",
+              "amount": 15
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 15
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 159,
+      "name": "Kuru patlıcan",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy ",
+              "amount": 6
+            },
+
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 160,
+      "name": "Kuru bamya",
+      "group": "Sebze",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 3
+            },
+
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 25
+            }
+          ]
+        },
+        "cooked": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 161,
+      "name": "Ceviz",
+      "group": "Yağlı Tohumlar/Sert Kabuklu Kuruyemişler",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "büyük boy(bütün)",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 162,
+      "name": "Badem",
+      "group": "Yağlı Tohumlar/Sert Kabuklu Kuruyemişler",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 10
+            },
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 163,
+      "name": "Fındık",
+      "group": "Yağlı Tohumlar/Sert Kabuklu Kuruyemişler",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 8
+            },
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 164,
+      "name": "Antep fıstığı",
+      "group": "Yağlı Tohumlar/Sert Kabuklu Kuruyemişler",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 15
+            },
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 165,
+      "name": "Kaju fıstığı",
+      "group": "Yağlı Tohumlar/Sert Kabuklu Kuruyemişler",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 7
+            },
+            {
+              "unit": "gram",
+              "amount": 10
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 166,
+      "name": "Yer fıstığı",
+      "group": "Yağlı Tohumlar/Sert Kabuklu Kuruyemişler",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 13
+            },
+            {
+              "unit": "gram",
+              "amount": 10
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 167,
+      "name": "Ay çekirdeği",
+      "group": "Yağlı Tohumlar/Sert Kabuklu Kuruyemişler",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 3
+            },
+            {
+              "unit": "gram",
+              "amount": 20
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 168,
+      "name": "Kabak çekirdeği",
+      "group": "Yağlı Tohumlar/Sert Kabuklu Kuruyemişler",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "yemek kaşığı",
+              "amount": 2
+            },
+            {
+              "unit": "gram",
+              "amount": 15
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 169,
+      "name": "Sıvı yağ",
+      "group": "Yağ",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "tatlı kaşığı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 170,
+      "name": "Zeytinyağı",
+      "group": "Yağ",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "tatlı kaşığı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 171,
+      "name": "Soya yağı",
+      "group": "Yağ",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "tatlı kaşığı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 172,
+      "name": "Ayçiçek yağı",
+      "group": "Yağ",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "tatlı kaşığı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 173,
+      "name": "Mısır yağı",
+      "group": "Yağ",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "tatlı kaşığı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 174,
+      "name": "Kanola yağı",
+      "group": "Yağ",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "tatlı kaşığı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 175,
+      "name": "Fındık yağı",
+      "group": "Yağ",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "tatlı kaşığı",
+              "amount": 1
+            },
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 176,
+      "name": "Siyah zeytin",
+      "group": "Yağ",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 10
+            },
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 35
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 177,
+      "name": "Yeşil zeytin",
+      "group": "Yağ",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "orta boy",
+              "amount": 10
+            },
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 35
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 178,
+      "name": "Avokado",
+      "group": "Yağ",
+      "defaultMeasurement": {
+        "state": "raw",
+        "weightType": "net",
+        "unit": "gram"
+      },
+      "measurements": {
+        "raw": {
+          "gross": [
+            {
+              "unit": "küçük boy",
+              "amount": 0.25
+            },
+            {
+              "unit": "gram",
+              "amount": 55
+            }
+          ],
+          "net": [
+            {
+              "unit": "gram",
+              "amount": 40
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

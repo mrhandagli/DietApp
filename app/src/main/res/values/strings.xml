@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DietApp</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_username">UsernameActivity</string>
+    <string name="title_activity_food_exchange">FoodExchange</string>
+    <string name="title_activity_meal_planning">MealPlanningActivity</string>
+    <string name="title_activity_nutrient_splitting">NutrientSplittingActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_ingredient_adding">IngredientAddingActivity</string>
+    <string name="title_activity_past_meals">PastMealsActivity</string>
+    <string name="title_activity_meal_plan_edit">MealPlanEditActivity</string>
+    <string name="title_activity_template">TemplateActivity</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="title_activity_recipe_generation">RecipeGenerationActivity</string>
+    <string name="title_activity_distribution_edit">DistributionEditActivity</string>
+    <string name="title_activity_exchange_edit">ExchangeEditActivity</string>
+</resources>
