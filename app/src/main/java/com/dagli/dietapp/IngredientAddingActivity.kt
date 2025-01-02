@@ -21,6 +21,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
@@ -357,7 +358,7 @@ fun IngredientAddingScreen(
                 // Toplam Kalori Göstergesi
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = "Toplam Kalori: $totalCalories kcal",
+                    text = "Toplam Kalori: ${totalCalories.round2decimals()} kcal",
                     style = MaterialTheme.typography.titleMedium,
                     color = MaterialTheme.colorScheme.primary,
                     modifier = Modifier.padding(vertical = 8.dp)
@@ -472,39 +473,51 @@ fun IngredientAddingScreen(
                 if (showSelected) {
                     Spacer(modifier = Modifier.height(16.dp))
                     Text("Seçilenler:", style = MaterialTheme.typography.titleMedium)
+
                     if (selectedIngredients.isEmpty()) {
                         Text("Boş")
                     } else {
-                        selectedIngredients.groupBy { it.group }.forEach { (cat, ingList) ->
-                            Spacer(modifier = Modifier.height(8.dp))
-                            val allowed = mealDistribution[cat] ?: 0.0
-                            val chosen = totalChosenForCategory(cat)
-                            Text(
-                                "$cat: ${formatNumber(chosen)}/${formatNumber(allowed)}",
-                                style = MaterialTheme.typography.titleSmall
-                            )
-                            ingList.forEach { selectedIng ->
-                                SelectedIngredientRow(
-                                    selectedIng = selectedIng,
-                                    mealDistribution = mealDistribution,
-                                    totalChosenForCategory = { c -> totalChosenForCategory(c) },
-                                    onUpdate = { updated ->
-                                        val idx = selectedIngredients.indexOf(selectedIng)
-                                        if (idx != -1) {
-                                            selectedIngredients[idx] = updated
-                                        }
-                                    },
-                                    onRemove = { selectedIngredients.remove(selectedIng) },
-                                    showError = { msg ->
-                                        coroutineScope.launch {
-                                            snackbarHostState.showSnackbar(msg)
-                                        }
-                                    }
+                        LazyColumn(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .heightIn(
+                                    max = LocalConfiguration.current.screenHeightDp.dp * 0.7f
                                 )
+                        ) {
+                            selectedIngredients.groupBy { it.group }.forEach { (cat, ingList) ->
+                                item {
+                                    Spacer(modifier = Modifier.height(8.dp))
+                                    val allowed = mealDistribution[cat] ?: 0.0
+                                    val chosen = totalChosenForCategory(cat)
+                                    Text(
+                                        "$cat: ${formatNumber(chosen)}/${formatNumber(allowed)}",
+                                        style = MaterialTheme.typography.titleSmall
+                                    )
+                                }
+                                items(ingList) { selectedIng ->
+                                    SelectedIngredientRow(
+                                        selectedIng = selectedIng,
+                                        mealDistribution = mealDistribution,
+                                        totalChosenForCategory = { c -> totalChosenForCategory(c) },
+                                        onUpdate = { updated ->
+                                            val idx = selectedIngredients.indexOf(selectedIng)
+                                            if (idx != -1) {
+                                                selectedIngredients[idx] = updated
+                                            }
+                                        },
+                                        onRemove = { selectedIngredients.remove(selectedIng) },
+                                        showError = { msg ->
+                                            coroutineScope.launch {
+                                                snackbarHostState.showSnackbar(msg)
+                                            }
+                                        }
+                                    )
+                                }
                             }
                         }
                     }
                 }
+
 
                 Spacer(modifier = Modifier.height(16.dp))
                 // KAYDET butonu
@@ -612,7 +625,8 @@ fun SelectedIngredientRow(
                     }
                 )
             }
-            .padding(vertical = 4.dp)
+            .padding(vertical = 4.dp).heightIn(
+                max = LocalConfiguration.current.screenHeightDp.dp * 0.4f)
     ) {
         // Seçilmiş öğenin bilgisi - Türkçe durum etiketi kullanılır
         Text(

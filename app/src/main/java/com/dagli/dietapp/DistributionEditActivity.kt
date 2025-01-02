@@ -283,7 +283,7 @@ fun DistributionEditScreen(
                         )
                         nutrientCategories.forEach { nutrient ->
                             val max = dailyNutrients[nutrient] ?: 0.0
-                            val rem = remaining(nutrient)
+                            val rem = remaining(nutrient).round2decimals()
                             Row(
                                 modifier = Modifier.fillMaxWidth(),
                                 verticalAlignment = Alignment.CenterVertically

@@ -51,7 +51,7 @@ class ExchangeActivity : ComponentActivity() {
                         saveNutrientValues(nutrientValues)
 
                         // 2) Toplam kalori hesaplanır ve saklanır
-                        val totalCalories = CalorieCalculator.computeTotalCalories(nutrientValues)
+                        val totalCalories = CalorieCalculator.computeTotalCalories(nutrientValues).round2decimals()
                         val sharedPref = getSharedPreferences("UserPrefs", MODE_PRIVATE)
                         with(sharedPref.edit()) {
                             putString("planned_daily_calories", totalCalories.toString())

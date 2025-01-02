@@ -477,7 +477,7 @@ class HomeActivity : ComponentActivity() {
         val nutrientsForMeal = distributionMap[meal.id] ?: emptyMap()
 
         // Toplam kalori hesaplama
-        val totalCalories = CalorieCalculator.computeTotalCalories(nutrientsForMeal).roundToInt()
+        val totalCalories = CalorieCalculator.computeTotalCalories(nutrientsForMeal).round2decimals()
 
         Surface(
             tonalElevation = 4.dp,

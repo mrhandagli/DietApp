@@ -173,7 +173,7 @@ fun PastMealItem(entry: FoodJournalEntry, meal: Meal?) {
 
             // Toplam kalori gösterimi
             Text(
-                text = "Toplam Kalori: ${formatNumber(entry.totalCalories)} kcal",
+                text = "Toplam Kalori: ${formatNumber(entry.totalCalories.round2decimals())} kcal",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.padding(bottom = 8.dp)

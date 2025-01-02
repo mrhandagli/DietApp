@@ -310,7 +310,7 @@ fun DistributionScreen(
                 itemsIndexed(indexedMeals, key = { _, item -> item.first }) { _, (id, meal) ->
 
                     val mealDistribution = distribution[id]?.toMap() ?: emptyMap()
-                    val totalCalories = CalorieCalculator.computeTotalCaloriesForMeal(mealDistribution)
+                    val totalCalories = CalorieCalculator.computeTotalCaloriesForMeal(mealDistribution).round2decimals()
 
                     MealNutrientAllocation(
                         meal = meal,
